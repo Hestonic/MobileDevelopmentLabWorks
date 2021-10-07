@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_padding">8dp</dimen>
+    <dimen name="marginTop_tittle">8dp</dimen>
+    <dimen name="marginLeft_tittle">24dp</dimen>
+
+    <dimen name="marginLeft_block">16dp</dimen>
+    <dimen name="marginTop_img">12dp</dimen>
+
+    <dimen name="marginLeft_name">16dp</dimen>
+    <dimen name="marginTop_name">10dp</dimen>
+
+    <dimen name="marginTop_text">14dp</dimen>
+
+</resources>

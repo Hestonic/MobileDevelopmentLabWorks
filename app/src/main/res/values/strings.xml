@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MobDevLab2</string>
+
+    <string name="Notifications">Notifications</string>
+    <string name="Account">Account</string>
+
+    <string name="name_01">Roman Kamushken</string>
+    <string name="date_01">2 days ago</string>
+    <string name="comment_01">Check out awesome updates for Android design kit for Figma. Now more screens and more categories.</string>
+    <string name="replayes_01">117 REPLAYS</string>
+
+    <string name="name_02">Tina Turbina</string>
+    <string name="date_02">18 minutes ago</string>
+    <string name="comment_02">“into component container and with resizing constraints set????”</string>
+    <string name="replayes_02">117 REPLAYS</string>
+
+    <string name="name_03">Tomek Kuwalskij</string>
+    <string name="date_03">2 days ago</string>
+    <string name="comment_03">Some antivirus software can interfere with the Android Studio build process, causing builds to run dramatically slower. When you run a build in Android Studio,</string>
+    <string name="replayes_03">117 REPLAYS</string>
+</resources>
