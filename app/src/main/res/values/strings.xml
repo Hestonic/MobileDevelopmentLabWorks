@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeWork3</string>
+    <string name="fr1">Fragment 1</string>
+    <string name="fr2">Fragment 2</string>
+    <string name="fr3">Fragment 3</string>
+    <string name="fr4">Fragment 4</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="num1">Enter the first number</string>
+    <string name="num2">Enter the second number</string>
+    <string name="mathOperation">Choose math operation</string>
+    <string name="result">Result</string>
+    <string name="pls">+</string>
+    <string name="mns">-</string>
+    <string name="dvd">/</string>
+    <string name="multi">*</string>
+</resources>

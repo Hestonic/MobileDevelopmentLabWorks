@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentThree"
+    android:padding="@dimen/main_padding">
+
+    <TextView
+        android:id="@+id/fragment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fr3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mathOperation"
+        app:layout_constraintTop_toBottomOf="@id/fragment_name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="@dimen/main_padding"
+        />
+
+    <!--<RadioGroup
+        android:id="@+id/math_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_num"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/pls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pls"
+            />
+        <RadioButton
+            android:id="@+id/mns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mns" />
+        <RadioButton
+            android:id="@+id/multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multi" />
+        <RadioButton
+            android:id="@+id/dvd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dvd" />
+
+    </RadioGroup>-->
+
+    <Button
+        android:id="@+id/pls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pls"
+        app:layout_constraintTop_toBottomOf="@id/text_num"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/mns"/>
+
+    <Button
+        android:id="@+id/mns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mns"
+        app:layout_constraintTop_toBottomOf="@id/text_num"
+        app:layout_constraintLeft_toRightOf="@id/pls"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multi"
+        app:layout_constraintTop_toBottomOf="@id/pls"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/dvd"/>
+
+    <Button
+        android:id="@+id/dvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dvd"
+        app:layout_constraintTop_toBottomOf="@id/mns"
+        app:layout_constraintLeft_toRightOf="@id/pls"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
