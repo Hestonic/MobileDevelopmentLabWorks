@@ -167,9 +167,6 @@ class MainActivity : AppCompatActivity(), Communicator {
         binding.operation.text = editTextInput
     }
 
-
-
-
 }
 
 
