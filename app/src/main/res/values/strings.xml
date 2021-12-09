@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">HomeWork4</string>
+    <string name="tittle">Личности</string>
+
+    <string name="zigmund">Зигмунд Фрейд</string>
+    <string name="zigmund_years">1856—1939</string>
+    <string name="zigmund_bio">Основатель психоанализа, который оказал значительное влияние на
+        психологию, медицину, социологию, антропологию, литературу и искусство XX века</string>
+    <string name="zigmund_sex">Мужской</string>
+
+    <string name="bach">Иоганн Себастьян Бах</string>
+    <string name="bach_years">1685—1750</string>
+    <string name="bach_bio">автор более 1000 музыкальных произведений во всех значимых
+        жанрах своего времени (кроме оперы)</string>
+    <string name="bach_sex">Мужской</string>
+
+    <string name="lenin">Владимир Ильич Ленин</string>
+    <string name="lenin_years">1870—1924</string>
+    <string name="lenin_bio">Марксист, публицист, идеолог и создатель Третьего (Коммунистического)
+        интернационала, основатель СССР</string>
+    <string name="lenin_sex">Мужской</string>
+
+    <string name="ford">Генри Форд</string>
+    <string name="ford_years">1863—1947</string>
+    <string name="ford_bio">промышленник, владелец заводов по производству автомобилей
+        по всему миру, изобретатель. Основоположник фордизма</string>
+    <string name="ford_sex">Мужской</string>
+
+    <string name="homer">Гомер</string>
+    <string name="homer_years">VIII век до н. э.</string>
+    <string name="homer_bio">древнегреческий поэт-сказитель, которому приписывается
+        создание «Илиады» и «Одиссеи»</string>
+    <string name="homer_sex">Мужской</string>
+
+    <string name="jesus">Иисус Христос</string>
+    <string name="jesus_years">2 год до н. э.—29</string>
+    <string name="jesus_bio">В христианстве центральная личность и предсказанный в
+        Ветхом Завете Мессия, ставший искупительной жертвой за грехи людей</string>
+    <string name="jesus_sex">Мужской</string>
+
+    <string name="hitler">Адольф Гитлер</string>
+    <string name="hitler_years">1889—1945</string>
+    <string name="hitler_bio">немецкий государственный и политический деятель, основоположник
+        и центральная фигура национал-социализма</string>
+    <string name="hitler_sex">Мужской</string>
+
+    <string name="curie">Мария Склодовская-Кюри</string>
+    <string name="curie_years">1867—1934</string>
+    <string name="curie_bio">учёная-экспериментатор (физик, химик), первый дважды
+        нобелевская лауреатка в истории</string>
+    <string name="curie_sex">Женский</string>
+
+    <string name="jobs">Стив Джобс</string>
+    <string name="jobs_years">1955—2011</string>
+    <string name="jobs_bio">американский предприниматель, получивший широкое признание
+        в качестве пионера эры IT-технологий</string>
+    <string name="jobs_sex">Мужской</string>
+
+    <string name="femka">Сьюзен Энтони</string>
+    <string name="femka_years">1820—1906</string>
+    <string name="femka_bio">американская активистка и борец за гражданские права женщин,
+        сыгравшая в XIX веке одну из ключевых ролей в суфражистском движении США</string>
+    <string name="femka_sex">Женский</string>
+
+</resources>

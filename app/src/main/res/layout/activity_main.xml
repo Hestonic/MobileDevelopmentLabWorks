@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+<!--    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/headBG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+
+
+            android:layout_height="match_parent"
+            android:background="@color/sex"
+            android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/back"
+                android:layout_height="@dimen/back"
+                android:src="@drawable/back"
+                app:layout_constraintLeft_toLeftOf="@id/headBG"
+                app:layout_constraintTop_toTopOf="@id/headBG"
+                app:layout_constraintBottom_toBottomOf="@id/headBG"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/tittle"
+                android:gravity="center_vertical"
+                style="@style/tittle"
+                app:layout_constraintLeft_toRightOf="@id/back"
+                app:layout_constraintTop_toTopOf="@id/headBG"
+                app:layout_constraintRight_toRightOf="@id/headBG"
+                app:layout_constraintBottom_toBottomOf="@id/headBG"
+                android:layout_marginLeft="24dp"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_users"
+        tools:itemCount="10"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

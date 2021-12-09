@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/userBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="8dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ImageView
+            android:id="@+id/userPicture"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/zigmund_circle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/zigmund"
+            android:gravity="top"
+            android:lines="1"
+            android:layout_marginLeft="16dp"
+            style="@style/name"
+            app:layout_constraintTop_toTopOf="@id/userPicture"
+            app:layout_constraintLeft_toRightOf="@id/userPicture"
+            app:layout_constraintBottom_toTopOf="@id/userYears"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/userBarrier"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="userPicture"/>
+
+        <TextView
+            android:id="@+id/userYears"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/zigmund_years"
+            android:gravity="bottom"
+            android:lines="1"
+            android:layout_marginLeft="16dp"
+            style="@style/years"
+            app:layout_constraintTop_toBottomOf="@id/userName"
+            app:layout_constraintLeft_toRightOf="@id/userPicture"
+            app:layout_constraintBottom_toBottomOf="@id/userBarrier"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/userBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zigmund_bio"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            style="@style/bio"
+            app:layout_constraintTop_toBottomOf="@id/userBarrier"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/userSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zigmund_sex"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:layout_marginTop="8dp"
+            style="@style/sex"
+            app:layout_constraintTop_toBottomOf="@id/userBio"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageView
+            android:id="@+id/userLike"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/like"
+            app:layout_constraintTop_toBottomOf="@id/userBio"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
