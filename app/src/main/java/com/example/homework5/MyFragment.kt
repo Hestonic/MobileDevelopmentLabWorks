@@ -8,6 +8,7 @@ import android.os.Message
 import android.util.Log
 import androidx.fragment.app.Fragment
 import java.util.concurrent.TimeUnit
+import kotlin.concurrent.thread
 
 interface TaskCallBacks {
     fun onPreExecuted()
@@ -43,7 +44,7 @@ class MyFragment : Fragment() {
 
     fun startTask() {
         task = MyTask()
-        val handlerCallback: Handler.Callback = object : Handler.Callback{
+        val handlerCallback: Handler.Callback = object : Handler.Callback {
             override fun handleMessage(message: Message): Boolean {
                 callbacks?.onPostExecute(message.what)
                 return false
@@ -65,9 +66,9 @@ class MyFragment : Fragment() {
         }
 
         override fun doInBackground(vararg p0: Unit?) {
-            Log.d("callbacksMY_TAG", "start task")
+            Log.d("MY_TAG", "start task")
             try {
-                for (i in 0..3) {
+                for (i in 0..2) {
                     TimeUnit.SECONDS.sleep(1)
                     if(isCancelled) break
                 }
@@ -82,8 +83,9 @@ class MyFragment : Fragment() {
 
         override fun onPostExecute(result: Unit?) {
             callbacks?.let {
-                handler?.sendEmptyMessage(1)
-                handler?.sendEmptyMessageDelayed(2, 1000)
+                for (i in 1..100) {
+                    handler?.sendEmptyMessageDelayed(i, ((i - 1) * 2000).toLong())
+                }
             }
         }
     }

@@ -19,10 +19,17 @@ class MainActivity : AppCompatActivity(), TaskCallBacks {
     private var fragment: MyFragment? = null
     private var myResult: Int = 0
 
+    private val list = ArrayList<Item>()
+    private var adapter: Adapter = Adapter(list)
+    private val verticalLinearLayoutManager: LinearLayoutManager =
+        LinearLayoutManager(this, RecyclerView.VERTICAL, false)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setupRecyclerView()
 
         savedInstanceState?.getBoolean(PROGRESS_IN_SHOWING)?.let {
             showProgress(it)
@@ -71,6 +78,18 @@ class MainActivity : AppCompatActivity(), TaskCallBacks {
     }
 
     override fun onPostExecute(i: Int) {
+        myResult = i
         Log.d("MY TAG", "MESSAGE = $i")
+
+
+        val newItem = Item("Новый элемент $i")
+        list.add(newItem)
+        adapter.notifyItemInserted(i)
     }
+
+    private fun setupRecyclerView() {
+        binding.recyclerView.layoutManager = verticalLinearLayoutManager
+        binding.recyclerView.adapter = adapter
+    }
+
 }
