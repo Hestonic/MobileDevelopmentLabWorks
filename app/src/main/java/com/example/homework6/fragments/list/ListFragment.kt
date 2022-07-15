@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.homework6.MAIN
 import com.example.homework6.R
 import com.example.homework6.databinding.FragmentListBinding
-import com.example.homework6.viewmodel.UserViewModel
+import com.example.homework6.fragments.add.viewmodel.UserViewModel
 
 class ListFragment : Fragment() {
     private lateinit var binding: FragmentListBinding
@@ -36,13 +36,13 @@ class ListFragment : Fragment() {
 
         //User View Model
         mUserViewModel = ViewModelProvider(this)[UserViewModel::class.java]
-        mUserViewModel.readAllData.observe(viewLifecycleOwner, { user ->
+        mUserViewModel.readAllData.observe(viewLifecycleOwner) { user ->
             adapter.setData(user)
-        })
+        }
 
-        mUserViewModel.readAllDataParents.observe(viewLifecycleOwner, { parent ->
+        mUserViewModel.readAllDataParents.observe(viewLifecycleOwner) { parent ->
             adapter.setDataParent(parent)
-        })
+        }
 
         binding.floatBtn.setOnClickListener {
             MAIN.navController.navigate(R.id.action_listFragment_to_addFragment)
@@ -62,8 +62,7 @@ class ListFragment : Fragment() {
                     requireContext(),
                     "Successfully removed everything",
                     Toast.LENGTH_LONG).show()
-            }
-                .create().show()
+            }.create().show()
         }
     }
 }

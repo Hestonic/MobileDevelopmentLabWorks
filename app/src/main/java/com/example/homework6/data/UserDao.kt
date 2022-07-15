@@ -1,6 +1,5 @@
 package com.example.homework6.data
 
-import android.os.FileObserver.DELETE
 import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.example.homework6.model.Parent

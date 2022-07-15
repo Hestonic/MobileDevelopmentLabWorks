@@ -55,9 +55,6 @@ class ChildrenAdapter(val mainId: Int, val mainValue: String, val itemClick: (In
                 itemView.layoutParams.height = 0
                 itemView.layoutParams.width = 0
             }
-
-
-
         }
     }
 

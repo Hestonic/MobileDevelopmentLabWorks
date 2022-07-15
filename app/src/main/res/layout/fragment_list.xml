@@ -15,7 +15,6 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,12 +26,11 @@
         android:layout_marginBottom="24dp"
         android:backgroundTint="@color/purple_200"
         android:clickable="true"
+        android:contentDescription="FloatBtn"
         android:focusable="true"
         android:src="@drawable/ic_add"
-        app:layout_constraintBottom_toBottomOf="@id/recyclerview"
-        app:layout_constraintEnd_toEndOf="@id/recyclerview"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="FloatBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="HardcodedText" />
 
     <Button

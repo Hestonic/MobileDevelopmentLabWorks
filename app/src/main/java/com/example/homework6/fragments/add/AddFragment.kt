@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.homework6.MAIN
 import com.example.homework6.R
 import com.example.homework6.model.User
-import com.example.homework6.viewmodel.UserViewModel
+import com.example.homework6.fragments.add.viewmodel.UserViewModel
 import com.example.homework6.databinding.FragmentAddBinding
 
 class AddFragment : Fragment() {

@@ -13,7 +13,7 @@ import com.example.homework6.MAIN
 import com.example.homework6.R
 import com.example.homework6.databinding.FragmentParentBinding
 import com.example.homework6.model.Parent
-import com.example.homework6.viewmodel.UserViewModel
+import com.example.homework6.fragments.add.viewmodel.UserViewModel
 
 class ParentFragment : Fragment() {
 

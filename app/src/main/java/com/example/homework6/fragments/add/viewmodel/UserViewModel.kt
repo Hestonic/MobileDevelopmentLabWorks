@@ -1,4 +1,4 @@
-package com.example.homework6.viewmodel
+package com.example.homework6.fragments.add.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -16,7 +16,6 @@ class UserViewModel(application: Application): AndroidViewModel(application) {
     val readAllData: LiveData<List<User>>
     val readAllDataParents: LiveData<List<Parent>>
     private val repository: UserRepository
-
 
 
     init {

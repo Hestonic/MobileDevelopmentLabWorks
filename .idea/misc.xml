@@ -12,6 +12,12 @@
         <entry key="..\:/MobDev/lr6/HomeWork6/app/src/main/res/layout/fragment_parent.xml" value="0.22604166666666667" />
         <entry key="..\:/MobDev/lr6/HomeWork6/app/src/main/res/layout/fragment_update.xml" value="0.17447916666666666" />
         <entry key="..\:/MobDev/lr6/HomeWork6/app/src/main/res/layout/parent_row.xml" value="0.4" />
+        <entry key="..\:/Polytech/5 sem/MobDev/lr6 (all of last themes/HomeWork6/app/src/main/res/layout/custom_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Polytech/5 sem/MobDev/lr6/HomeWork6/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Polytech/5 sem/MobDev/lr6/HomeWork6/app/src/main/res/layout/custom_row.xml" value="0.22826086956521738" />
+        <entry key="..\:/Polytech/5 sem/MobDev/lr6/HomeWork6/app/src/main/res/layout/fragment_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Polytech/6/MobDev/lr6/HomeWork6/app/src/main/res/layout/activity_main.xml" value="0.13072916666666667" />
+        <entry key="..\:/Polytech/6/MobDev/lr6/HomeWork6/app/src/main/res/layout/fragment_list.xml" value="0.4" />
       </map>
     </option>
   </component>
@@ -20,5 +26,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4" />
+      </ProjectState>
+    </option>
   </component>
 </project>
