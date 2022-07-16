@@ -73,6 +73,7 @@ If 1 fragment - the application closes
 If > 1 fragment - return to the previous fragment
 
 **Realization:**
+
 ![Realization Home Work2](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork3.gif)
 
 ## Home Work 4
@@ -106,6 +107,7 @@ Criteria for evaluation:
 3) Correctly implemented Adapter/ViewHolder
 
 **Realization:**
+
 ![Realization HomeWork4](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork4.gif)
 
 
@@ -119,6 +121,7 @@ Criteria:
 2) The application "survives" the screen flip
 3) The progress of the AsyncTask does not disappear during the flip.
 **Realization:**
+
 ![Realization HomeWork5](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork5.gif)
 
 ## Home Work 6
@@ -147,6 +150,7 @@ entities (nodes) must be saved / updated / deleted in storage (for example, a da
 the application must survive the screen flip
 work with storage should be done asynchronously
 **Realization:**
+
 ![Realization HomeWork6](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork6.gif)
 
 
