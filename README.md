@@ -4,6 +4,7 @@
 **Goal:** get to know the kotlin language
 **Task:** Implement the registerUserByPhone and requestAccessCode methods
 You can check the correctness of the implementation using a file with the class ExampleUnitTest
+
 **Realization:**
 ```Kotlin
    fun registerUserByPhone(fullName: String, rawPhone: String): User {
@@ -32,6 +33,7 @@ You can check the correctness of the implementation using a file with the class 
 ## Home Work 2
 **Goal:** to get acquainted with the principles of writing XML code
 **task:** develop XML code screen according to the layout in [Figma](https://www.figma.com/file/2sLJOYX5W0NntXMaF0MI5Q/Antonio?node-id=0%3A1). The task is aimed at learning the basics of XML markup 
+
 **Realization:**
 ![Realization Home Work2](https://sun9-62.userapi.com/impf/mKUS2u1mb1VnuBsj_XrUKU5JJJRh0-ERSj70cw/XyXGTfV427U.jpg?size=720x1560&quality=95&sign=d6521db72f662f8f4abaa0b7cd093b43&type=album)
 
@@ -120,6 +122,7 @@ Criteria:
 1) asyncTask works correctly
 2) The application "survives" the screen flip
 3) The progress of the AsyncTask does not disappear during the flip.
+
 **Realization:**
 
 ![Realization HomeWork5](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork5.gif)
@@ -149,6 +152,7 @@ Requirements:
 entities (nodes) must be saved / updated / deleted in storage (for example, a database)
 the application must survive the screen flip
 work with storage should be done asynchronously
+
 **Realization:**
 
 ![Realization HomeWork6](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork6.gif)
