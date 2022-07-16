@@ -1,4 +1,5 @@
 # Mobile Development Laboratory Works
+Welcome to my repository where my Mobile Development labs are located. You can find each laboratory work on the branch corresponding to it.
 
 ## Home Work 1
 **Goal:** get to know the kotlin language
