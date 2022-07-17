@@ -133,7 +133,7 @@ Criteria:
 
 **Realization:**
 
-![Realization HomeWork5](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork5.gif)
+![Realization HomeWork5](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork6.gif)
 
 ## Home Work 6
 **Goal:** Apply in practice the knowledge gained as a result of previous homeworks
@@ -164,7 +164,7 @@ work with storage should be done asynchronously
 
 **Realization:**
 
-![Realization HomeWork6](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork6.gif)
+![Realization HomeWork6](https://github.com/Hestonic/MobileDevelopmentLabWorks/blob/main/video/HomeWork5.gif)
 
 
 
